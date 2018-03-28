@@ -1,0 +1,11 @@
+{
+    "if": {
+     
+        "field": "tags.Department",
+        "exists": "false"
+      
+    },
+    "then": {
+      "effect": "deny"
+    }
+  }
